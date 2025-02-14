@@ -1170,3 +1170,9 @@ It is also a proxy to the Playwright `page` class.
 `fusion.visit()`, especially if you're working with route model binding components that have different URLs.
 
 `fusion.see` is a shorthand to assert that this text is in the body element.
+
+
+## Credits
+
+- All Fusion artwork was designed by [Will King](https://x.com/wking__)
+- Fusion was named by [Josh Cirre](https://x.com/joshcirre)! It had a much worse working name, which is so bad I won't share it.
