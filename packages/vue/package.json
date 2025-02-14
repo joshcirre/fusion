@@ -1,0 +1,33 @@
+{
+    "author": "Aaron Francis <aarondfrancis@gmail.com> (http://aaronfrancis.com/)",
+    "name": "@fusion/vue",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "exports": {
+        "./vite": "./vite.js",
+        "./vue": "./vue.js",
+        "./hmr": "./hmr.js",
+        "./actions": "./actions/index.js",
+        "./pipeline": "./Pipeline.js",
+        "./actionFactory": "./ActionFactory.js",
+        "./testExtractor": "./testExtractor.js"
+    },
+    "scripts": {
+        "fusion:install": "node scripts/install.js",
+        "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+    },
+    "private": true,
+    "peerDependencies": {
+        "@inertiajs/vue3": "^2.0.0",
+        "vue": "^3.0.0"
+    },
+    "devDependencies": {
+        "@vue/compiler-sfc": "^3.5.13",
+        "better-sqlite3": "^11.8.1",
+        "jest": "^29.7.0",
+        "magic-string": "^0.30.17",
+        "picocolors": "^1.1.1",
+        "vite": "^6.0.7"
+    }
+}

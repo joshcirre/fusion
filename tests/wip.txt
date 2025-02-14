@@ -1,0 +1,57 @@
+
+<!-- Script Setup with import already -->
+<!--<script setup>-->
+<!--import {useFusion} from '@/Fusion/Pages/Podcast/List';-->
+<!--// __props.fusion gets automatically injected-->
+<!--const {message, search, refresh} = useFusion();-->
+<!--</script>-->
+
+<!-- Script Setup without import-->
+<!--<script setup>-->
+<!--import {ref} from 'vue';-->
+
+<!--const bar = ref('asdf');-->
+<!--</script>-->
+
+
+<!-- Traditional script, with setup and import and use -->
+<!--<script>-->
+<!--import {useFusion} from '@/Fusion/Pages/Podcast/List';-->
+
+<!--export default {-->
+<!--  setup() {-->
+<!--    const {search, message, refresh} = useFusion();-->
+
+<!--    return {-->
+<!--      search, message, refresh-->
+<!--    }-->
+<!--  }-->
+<!--}-->
+<!--</script>-->
+
+<!-- Traditional script, with setup and no import or use -->
+<!--<script>-->
+<!--import {ref} from 'vue';-->
+
+<!--export default {-->
+<!--  setup() {-->
+
+<!--    return {-->
+<!--      'bar': ref('bar'),-->
+<!--    }-->
+<!--  }-->
+<!--}-->
+<!--</script>-->
+
+<!-- Traditional script, without setup -->
+<!--<script>-->
+<!--import {useFusion} from '@/Fusion/Pages/Podcast/List';-->
+
+<!--export default {-->
+<!--  data() {-->
+<!--    return {-->
+<!--      hey: 'hey',-->
+<!--    }-->
+<!--  },-->
+<!--};-->
+<!--</script>-->

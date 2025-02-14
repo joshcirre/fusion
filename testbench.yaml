@@ -1,0 +1,12 @@
+providers:
+  - Fusion\Providers\FusionServiceProvider
+  - App\Providers\AppServiceProvider
+
+migrations: false
+
+workbench:
+  start: '/'
+  health: true
+  discovers:
+    web: true
+    commands: true
