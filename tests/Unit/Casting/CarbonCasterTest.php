@@ -81,7 +81,6 @@ class CarbonCasterTest extends Base
 
         $exported = JavaScriptVariable::makeWithValue($param, null)->toTransportable()->toArray();
 
-        dd($exported);
         $this->assertEquals(\Carbon\Carbon::class, $exported['meta']['class']);
     }
 }

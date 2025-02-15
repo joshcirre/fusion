@@ -21,8 +21,6 @@ class ExposeTransformerTest extends Base
 
         $actual = $conformer->conform();
 
-        // dd($actual);
-
         $this->assertEquals(
             $expected,
             Str::after($actual, "<?php\n\n"),
