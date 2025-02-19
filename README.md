@@ -46,7 +46,6 @@ the [how Fusion works](#how-fusion-works) section.)
 Using Fusion, you can write a single file like this:
 
 ```vue
-
 <php>
   // Define a prop in PHP
   $name = prop(Auth::user()->name);
@@ -68,16 +67,15 @@ or "[class-based](#class-based-php)" PHP.
 Procedural is much closer to a functional paradigm, and may feel more comfortable to folks coming from other languages
 like JavaScript. Writing the previous example using a class-based approach is very similar:
 
-```vue
-
+```php
 <php>
   new class {
-  public string $name;
+    public string $name;
 
-  public function mount()
-  {
-  $this->name = Auth::user()->name;
-  }
+    public function mount()
+    {
+      $this->name = Auth::user()->name;
+    }
   }
 </php>
 
