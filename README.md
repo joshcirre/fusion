@@ -223,7 +223,7 @@ new class {
 }
 ```
 
-When you're using the procedural method of route binding, you actually do not have to include a `mount` function. If you
+When you're using the class-based method of route binding, you actually do not have to include a `mount` function. If you
 have a public or protected property that is named the same as a route parameter, we will go ahead and auto set it if
 there is no `mount` function available.
 
