@@ -11,10 +11,10 @@
     ],
     "require": {
         "php": "^8.2",
-        "illuminate/support": "^11",
-        "illuminate/console": "^11",
-        "illuminate/process": "^11",
-        "laravel/framework": "^11",
+        "illuminate/support": "^12",
+        "illuminate/console": "^12",
+        "illuminate/process": "^12",
+        "laravel/framework": "^12",
         "inertiajs/inertia-laravel": "^2.0"
     },
     "require-dev": {

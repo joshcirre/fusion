@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "$fusion/*" : ["storage/fusion/JavaScript/*"],
+            "@pw/*": ["playwright/*"],
+            "@/*": ["resources/js/*"]
+        }
+    },
+    "exclude": ["node_modules", "public"]
+}

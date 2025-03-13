@@ -1,0 +1,3 @@
+<?php
+
+\Fusion\Fusion::pages();
